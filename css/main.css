@@ -1,0 +1,310 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1300px;
+  padding: 16px 30px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #000;
+  background: #ffffff;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0px 1.5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+
+.pixer:hover {
+  opacity: 0.7;
+}
+
+.pixer:active {
+  opacity: 0.5;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 20px;
+  position: relative;
+}
+
+nav ul li::after {
+  content: '';
+  position: absolute;
+  height: 2.4px;
+  width:0;
+  background-color:#000;
+  left: 0;
+  bottom: -27px;
+  transition: 0s ease; 
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
+nav ul li:last-child {
+margin-right: 10px;
+}
+
+nav ul li a:active {
+  background-color: gray;
+  color: #fff;
+  padding: 30px;
+}
+
+.header-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  margin-right: 10px;
+}
+.header-list-second {
+  display: none;
+  position: absolute;
+  right: 25px;
+  left: -15px;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  width: 124px;
+  list-style-type: none;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+nav ul li a {
+text-decoration: none;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #000;
+}
+
+.phone-link{
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid rgba(0, 186, 252, 1);
+  background-color: rgba(0, 186, 252, 1);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.phone-link:hover{
+  background-color: #fff;
+  color: rgba(0, 186, 252, 1);
+  transition: 0.5s ease;
+}
+.phone-link:active {
+  opacity: 0.5;
+  transition: 0.1s ;
+}
+
+.main-header {
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-inner {
+  width: 500px;
+}
+
+.main-head {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.main-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0;
+  padding: 16px 0px 30px 0px;
+}
+
+.main-servisec {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  border: 3px solid rgba(0, 186, 252, 1);
+  background-color: rgba(0, 186, 252, 1);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.main-servisec:hover {
+  opacity: 0.8;
+}
+
+.main-servisec:active {
+  opacity: 0.6; 
+}
+
+.main-second{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+
+}
+
+.hero-head{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+margin: 0px;
+padding-bottom: 16px;
+}
+
+.hero-texts{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+margin: 0px;
+}
+
+.link{
+  text-align: center;
+}
+
+.hero-list {
+  margin: 0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-item{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hero-item:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+
+.hero-item:active{
+  box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+}
+
+.hero-header{
+margin:0;
+padding: 15px 0;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 130%;
+}
+
+.hero-text {
+  margin: 0;
+  padding: 15px 0;  
+}
+.reservation{
+margin-right: 10px;
+padding: 8px;
+text-decoration: none;
+color: #fff;
+background:rgba(0, 186, 252, 1);
+border-radius: 5px;  
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+border: 3px solid rgba(0, 186, 252, 1);
+
+}
+
+.hero-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.reservation:hover{
+  background-color: #fff;
+  color:rgba(0, 186, 252, 1);
+  border: 3px solid rgba(0, 186, 252, 1);
+  transition: 0.5s ease;
+}
+
+.reservation:active{
+  opacity: 0.6;
+}
+
+.services-page{
+  color:rgba(0, 186, 252, 1);
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.services-page:hover{
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.services-page:active{
+  opacity: 0.5;
+}
