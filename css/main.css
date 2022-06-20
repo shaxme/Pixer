@@ -1,3 +1,4 @@
+
 * {
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
@@ -14,7 +15,7 @@ img {
 }
 
 body {
-  font-family: "Hind Madurai", sans-serif;
+  font-family: "Open-Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -281,18 +282,18 @@ border: 3px solid rgba(0, 186, 252, 1);
   color: #000;
 }
 
-.reservation:hover{
+.reservation:hover {
   background-color: #fff;
   color:rgba(0, 186, 252, 1);
   border: 3px solid rgba(0, 186, 252, 1);
   transition: 0.5s ease;
 }
 
-.reservation:active{
+.reservation:active {
   opacity: 0.6;
 }
 
-.services-page{
+.services-page {
   color:rgba(0, 186, 252, 1);
   font-family: 'Open Sans';
   font-style: normal;
@@ -300,11 +301,229 @@ border: 3px solid rgba(0, 186, 252, 1);
   font-size: 16px;
 }
 
-.services-page:hover{
+.services-page:hover {
   text-decoration: none;
   opacity: 0.6;
 }
 
-.services-page:active{
+.services-page:active {
   opacity: 0.5;
+}
+.work{
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.work-head{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+}
+
+.work-text{
+  margin: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.work-list{
+  list-style: none;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+
+}
+.work-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-text{
+  margin-left: 30px;
+}
+.name{
+  display:block;
+  width: 493px;
+}
+
+
+.work-item{
+  padding-bottom: 73px;
+}
+
+.work-item:nth-child(2n){
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.work-item:nth-child(2n) img{
+  margin-left: 30px;
+ 
+}
+.work-item img{
+  transition: .8s;
+}
+.work-item img:hover{
+  transform: scale(1.1);
+  transition: .8s ease;
+}
+
+.first{
+  margin-right: 10px;
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(0, 186, 252, 1);
+  border-radius: 5px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  border: 3px solid rgba(0, 186, 252, 1);
+  margin: 0 auto;
+  display:block;
+  width: 170px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: .8s;
+}
+.first:hover{
+  background-color: #fff;
+  transition: .8s;
+  color: #00BAFC;
+}
+.first:active{
+  opacity: 0.6;
+}
+.third{
+  background-color: #00BAFC;
+}
+
+.form-header{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+
+}
+
+.form-inner{
+  width: 350px;
+  padding: 24px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+label{
+  display: flex;
+  flex-direction: column;
+}
+label input,select{
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  background-color:rgb(245, 241, 241);
+  
+}
+label input::placeholder{
+  color: rgb(171, 171, 171);
+}
+.form-btn{
+  background-color: #00BAFC;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+footer{
+  background-color: #191919;
+  color:rgb(197, 196, 196);
+
+}
+
+.footer-header{
+  display: flex;
+  align-items: center;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-inner{
+  width: 320px;
+  margin-top: 0px;
+  margin-top: 20px;
+}
+
+.footer-inner p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+
+.title{
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.link-first{
+  margin-right: 30px;
+  list-style: none;
+  margin: 0;
+  margin-left: 150px;
+  margin-right: 30px;
+  padding:0;
+  margin-top: 40px;
+  text-align: left;
+  color:rgb(197, 196, 196) ;
+}
+.footer-link .link-first li {
+ line-height: 30px;
+}
+
+.footer-link .link-first li a{
+color:rgb(197, 196, 196);
+text-decoration: none;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+.param{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.links{
+  margin-bottom: 50px;
+  line-height: 36px;
+  list-style: none;
+  padding-left: 87px;
+}
+.links img {
+  margin-right:10px;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(197, 196, 196);
 }
