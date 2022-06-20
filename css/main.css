@@ -464,7 +464,7 @@ label input::placeholder{
   display: flex;
   align-items: center;
 }
-.footer-link {
+.footer-links {
   display: flex;
   align-items: center;
 }
@@ -492,7 +492,7 @@ font-size: 16px;
   font-size: 20px;
 }
 
-.link-first{
+.footer-list{
   margin-right: 30px;
   list-style: none;
   margin: 0;
@@ -503,11 +503,11 @@ font-size: 16px;
   text-align: left;
   color:rgb(197, 196, 196) ;
 }
-.footer-link .link-first li {
+.footer-links .footer-list li {
  line-height: 30px;
 }
 
-.footer-link .link-first li a{
+.footer-links .footer-list li a{
 color:rgb(197, 196, 196);
 text-decoration: none;
 font-family: 'Open Sans';
@@ -520,16 +520,16 @@ line-height: 22px;
   color: #FFFFFF;
   font-size: 20px;
 }
-.links{
+.link-second{
   margin-bottom: 50px;
   line-height: 36px;
   list-style: none;
   padding-left: 87px;
 }
-.links img {
+.link-second img {
   margin-right:10px;
 }
-.links a {
+.link-second a {
   text-decoration: none;
   color: rgb(197, 196, 196);
 }
